@@ -43,9 +43,19 @@ nano "$HOME/Library/Application Support/KingPepe/kingpepe.conf" -t
 
 Paste the following into nano.
 
-addnode=kpepesolo.pool.sexy:21053
+rpcuser=rpc_kingpepe
 
-addnode=kpepe.pool.sexy:11053
+rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2
+
+rpcbind=127.0.0.1
+
+rpcallowip=127.0.0.1
+
+listen=1
+
+server=1
+
+addnode=node3.walletbuilders.com
 
 
 Save the file with the keyboard shortcut ctrl + x.
